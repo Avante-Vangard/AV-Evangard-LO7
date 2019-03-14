@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MODE SYSTEM "xmode.dtd">
+<!-- r.sfm.xml version 20170704 -->
+<!-- Catalog Entry 
+<MODE NAME="SFM-Reading(RAB)" FILE="r.sfm.xml" FILE_NAME_GLOB="*.r.sfm"/>
+-->
+<!--
+Jedit Token	
+COMMENT1	
+COMMENT2	
+COMMENT3	
+COMMENT4	
+DIGIT
+FUNCTION
+INVALID		
+KEYWORD1	
+KEYWORD2	
+KEYWORD3	
+KEYWORD4	
+LABEL		
+LITERAL1		
+LITERAL2		
+LITERAL3		
+LITERAL4		
+MARKUP		 
+OPERATOR
+-->
+
+<MODE>
+	<PROPS>
+		<PROPERTY NAME="indentSize" VALUE="4" />
+		<PROPERTY NAME="tabSize" VALUE="4" />
+		<PROPERTY NAME="wrap" VALUE="soft" />
+	</PROPS>
+
+	<RULES IGNORE_CASE="FALSE" HIGHLIGHT_DIGITS="TRUE">
+		
+
+	</RULES>
+</MODE>
