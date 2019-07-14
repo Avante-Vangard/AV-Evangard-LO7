@@ -5,14 +5,14 @@
 <MODE NAME="Plain+Simple (p.sfm)" FILE="p.sfm.xml" FILE_NAME_GLOB="*.p.sfm" /> 
 
 Jedit Token	USFM Tag
-COMMENT1	cat, cat#,  toc, toc#
+COMMENT1	cat, cat#,  toc, toc#, toca, toca#
 COMMENT2	h, h#, b, b#, ib, ib#,
 COMMENT3	id, ide, sts, periph, rem, ts
 COMMENT4	ef-ef*, ex-ex*, f-f*, fc-fc*, fdc-fdc*, fe-fe*
 DIGIT
 FUNCTION	x-x*, xdc-xdc*, xnt-xnt*, xot-xot*
 INVALID		[^ ]+
-KEYWORD1	cd, cl, cls, fp, ie, iex, ili, ili#, im, imi, imq, io, io#, ip, ipi, ipq, ipr, iq, iq#, k, K#, li, li#, lim, lim#, lit, m, mi, mr, nb, p, p#, ph, ph#, pi, pi#, pm, pmc, pmo, pmr, po, pr, ps, psi, q, q#, qc, qd, qm, qm#, qr,  tr, tr#
+KEYWORD1	cd, cl, cls, fp, ie, iex, ili, ili#, im, im#, imi, imq, io, io#, ip, ip#, ipi, ipq, ipr, iq, iq#, k, K#, li, li#, lim, lim#, lit, m, mi, mr, nb, p, p#, ph, ph#, pi, pi#, pm, pmc, pmo, pmr, po, pr, ps, psi, q, q#, qc, qd, qm, qm#, qr,  tr, tr#
 KEYWORD2	c, v, tc, tc#, tcc, tcc#, tcr, tcr#, th, th#, thc, thc#, thr, thr#
 KEYWORD3	imt, imt#, imte, imte#, ms, ms#, mt, mt#, mte, mte#,
 KEYWORD4	d, iot, is, is#, lf, lh, qa, r, s, s#, sp, sr, xtSee, xtSeeAlso
@@ -57,6 +57,17 @@ OPERATOR
 		<EOL_SPAN TYPE="COMMENT1">\toc7 </EOL_SPAN>
 		<EOL_SPAN TYPE="COMMENT1">\toc8 </EOL_SPAN>
 		<EOL_SPAN TYPE="COMMENT1">\toc9 </EOL_SPAN>
+		<EOL_SPAN TYPE="COMMENT1">\toca </EOL_SPAN>
+		<EOL_SPAN TYPE="COMMENT1">\toca0 </EOL_SPAN>
+		<EOL_SPAN TYPE="COMMENT1">\toca1 </EOL_SPAN>
+		<EOL_SPAN TYPE="COMMENT1">\toca2 </EOL_SPAN>
+		<EOL_SPAN TYPE="COMMENT1">\toca3 </EOL_SPAN>
+		<EOL_SPAN TYPE="COMMENT1">\toca4 </EOL_SPAN>
+		<EOL_SPAN TYPE="COMMENT1">\toca5 </EOL_SPAN>
+		<EOL_SPAN TYPE="COMMENT1">\toca6 </EOL_SPAN>
+		<EOL_SPAN TYPE="COMMENT1">\toca7 </EOL_SPAN>
+		<EOL_SPAN TYPE="COMMENT1">\toca8 </EOL_SPAN>
+		<EOL_SPAN TYPE="COMMENT1">\toca9 </EOL_SPAN>
 
 		<EOL_SPAN_REGEXP TYPE="COMMENT2">\\b[0-9]{0,1} *$</EOL_SPAN_REGEXP>
 		<EOL_SPAN_REGEXP TYPE="COMMENT2">\\sd[0-9]{0,1} *$</EOL_SPAN_REGEXP>
@@ -268,6 +279,16 @@ OPERATOR
 			<KEYWORD1>\ili8</KEYWORD1>
 			<KEYWORD1>\ili9</KEYWORD1>
 			<KEYWORD1>\ili</KEYWORD1>
+			<KEYWORD1>\im0</KEYWORD1>
+			<KEYWORD1>\im1</KEYWORD1>
+			<KEYWORD1>\im2</KEYWORD1>
+			<KEYWORD1>\im3</KEYWORD1>
+			<KEYWORD1>\im4</KEYWORD1>
+			<KEYWORD1>\im5</KEYWORD1>
+			<KEYWORD1>\im6</KEYWORD1>
+			<KEYWORD1>\im7</KEYWORD1>
+			<KEYWORD1>\im8</KEYWORD1>
+			<KEYWORD1>\im9</KEYWORD1>
 			<KEYWORD1>\im</KEYWORD1>
 			<KEYWORD1>\imi</KEYWORD1>
 			<KEYWORD1>\imq</KEYWORD1>
@@ -285,6 +306,16 @@ OPERATOR
 			<KEYWORD1>\ipi</KEYWORD1>
 			<KEYWORD1>\ipq</KEYWORD1>
 			<KEYWORD1>\ipr</KEYWORD1>
+			<KEYWORD1>\ip0</KEYWORD1>
+			<KEYWORD1>\ip1</KEYWORD1>
+			<KEYWORD1>\ip2</KEYWORD1>
+			<KEYWORD1>\ip3</KEYWORD1>
+			<KEYWORD1>\ip4</KEYWORD1>
+			<KEYWORD1>\ip5</KEYWORD1>
+			<KEYWORD1>\ip6</KEYWORD1>
+			<KEYWORD1>\ip7</KEYWORD1>
+			<KEYWORD1>\ip8</KEYWORD1>
+			<KEYWORD1>\ip9</KEYWORD1>
 			<KEYWORD1>\ip</KEYWORD1>
 			<KEYWORD1>\iq0</KEYWORD1>
 			<KEYWORD1>\iq1</KEYWORD1>
