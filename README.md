@@ -1,4 +1,4 @@
-# Vangard-Libre
+# Evangard SFM
 _Build a better Libre Office Writer document._
 
 This is zero rev code, or idea collation only. 
