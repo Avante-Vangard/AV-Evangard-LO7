@@ -1,0 +1,21 @@
+// This is a recorded macro. First, check over the
+// commands to make sure this is what you intended. Then,
+// save this buffer, and the macro should appear in the
+// Macros menu.
+// -- Chapter numbers attached to bookname
+SearchAndReplace.setSearchString(" (\\d\\:)");
+SearchAndReplace.setReplaceString("~$1");
+SearchAndReplace.setBeanShellReplace(false);
+SearchAndReplace.setWholeWord(false);
+SearchAndReplace.setIgnoreCase(false);
+SearchAndReplace.setRegexp(true);
+SearchAndReplace.setSearchFileSet(new CurrentBufferSet());
+SearchAndReplace.replaceAll(view);
+// -- verse list stays together.
+SearchAndReplace.setSearchString("(\\d\\,) (\\d)");
+SearchAndReplace.setReplaceString("$1~$2");
+SearchAndReplace.replaceAll(view);
+// -- last short word in body paragraphs
+SearchAndReplace.setSearchString("^(\\\\(p|m) [^\\n]+) ([^\\n]{1,10})$");
+SearchAndReplace.setReplaceString("$1~$3");
+SearchAndReplace.replaceAll(view);
