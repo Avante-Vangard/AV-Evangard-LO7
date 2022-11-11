@@ -3,7 +3,7 @@
 // ======
 //  This macro educates typewriter quotes to typographer's quotes. This version is for English.
 //  Note that the macro ends with a list of typewriter quotes remaining. These are left because they are ambiguous and need evaluation.
-// === Simplify Quotes
+// ===Simplify any curly quotes
 SearchAndReplace.setSearchString("(\\u2019|\\u2018)");
 SearchAndReplace.setReplaceString("\'");
 SearchAndReplace.setBeanShellReplace(false);

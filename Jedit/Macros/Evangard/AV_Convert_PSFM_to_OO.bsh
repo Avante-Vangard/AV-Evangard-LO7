@@ -44,6 +44,11 @@ SearchAndReplace.replaceAll(view);
 SearchAndReplace.setSearchString("(^\\\\span[^\n]*$|^\\\\mte9[^\n]*$)");
 SearchAndReplace.setReplaceString("</text:section>\n<text:section text:style-name=\"Span\" text:name=\"Span\">\n$1");
 SearchAndReplace.replaceAll(view);
+// ===============Inline=Figures ===============================
+// absolute size (number x number ) 
+SearchAndReplace.setSearchString("\\\\fig ([^(]*?)\\((\\d+[^ ]+) x (\\d+[^)]+)\\)\\|([^|]*)\\|inline\\|[^\\\\]*\\\\fig\\*");
+SearchAndReplace.setReplaceString("<draw:frame draw:style-name=\"fig\" draw:name=\"$1\" text:anchor-type=\"as-char\" svg:width=\"$2\" svg:height=\"$3\" draw:z-index=\"2\"><draw:image xlink:href=\"$4\" xlink:type=\"simple\" xlink:show=\"embed\" xlink:actuate=\"onLoad\" loext:mime-type=\"image/png\"></draw:image></draw:frame>");
+SearchAndReplace.replaceAll(view);
 // === Chapter markers rearranged to their published order. ========
 // -- \cp replaces \c
 SearchAndReplace.setSearchString("(^\\\\c )(.+$){1,10}\\n\\\\(cp) (.+$){1,10}");

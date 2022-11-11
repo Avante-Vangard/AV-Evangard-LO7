@@ -5,7 +5,7 @@
 <MODE NAME="Plain+Simple (p.sfm)" FILE="p.sfm.xml" FILE_NAME_GLOB="*.p.sfm" /> 
 
 Jedit Token	USFM Tag
-COMMENT1	cat, cat#,  toc, toc#, toca, toca#
+COMMENT1	cat, cat#, ndx-ndx*, toc, toc#, toca, toca#
 COMMENT2	h, h#, b, b#, ib, ib#,
 COMMENT3	id, ide, sts, periph, rem, ts
 COMMENT4	ef-ef*, ex-ex*, f-f*, fc-fc*, fdc-fdc*, fe-fe*
@@ -19,7 +19,7 @@ KEYWORD4	d, iot, is, is#, lf, lh, qa, r, s, s#, sp, sr, xtSee, xtSeeAlso
 LABEL		wj-wj*, nd-nd*
 LITERAL1		fp-fp*, fs-fs*, ft-ft*, no-no*, sc-sc*, va-va*, vp-vp*, xt-xt*
 LITERAL2		add-add*, bk-bk*, dc-dc*, fq-fq*, fqa-fqa*, fv-fv*, ior-ior*, iqt-iqt*, it-it*, lik-lik*, nl-nl* ord-ord*, pn-pn*, qac-qac*, qs-qs*, qt-qt*, rq-rq*, sls-sls*, tl-tl*, sls-sls*, va-va*, xq-xq*, xt-xt*
-LITERAL3		ca-ca*, bd-bd*, fk-fk*, fl-fl*, fm-fm*, fr-fr*, k-k*, ndx-ndx*, pro-pro*, w-w*, wg-wg*, wh-wh*, wr-wr*, xk-xk*
+LITERAL3		ca-ca*, bd-bd*, fk-fk*, fl-fl*, fm-fm*, fr-fr*, k-k*, pro-pro*, w-w*, wg-wg*, wh-wh*, wr-wr*, xk-xk*
 LITERAL4		bdit-bdit*, em-em*, n-n*, nh-nh* , sig-sig*
 MARKUP		erq, esb, esbe, fig-fig*, jmp-jmp*, pb, 
 OPERATOR
@@ -188,6 +188,8 @@ OPERATOR
 		<EOL_SPAN TYPE="KEYWORD4">\xtSee </EOL_SPAN>
 		<EOL_SPAN TYPE="KEYWORD4">\xtSeeAlso </EOL_SPAN>
 		
+		<SEQ_REGEXP HASH_CHAR="\ndx" TYPE="COMMENT1">.+?\\ndx\*</SEQ_REGEXP>
+		
 		<SEQ_REGEXP HASH_CHAR="\wj " TYPE="LABEL">.+?\\wj\*</SEQ_REGEXP>
 		<SEQ_REGEXP HASH_CHAR="\nd" TYPE="LABEL">.+?\\nd\*</SEQ_REGEXP>
 		
@@ -229,7 +231,6 @@ OPERATOR
 		<SEQ_REGEXP HASH_CHAR="\fr" TYPE="LITERAL3">.+?\\fr\*</SEQ_REGEXP>
 		<SEQ_REGEXP HASH_CHAR="\fv" TYPE="LITERAL3">.+?\\fv\*</SEQ_REGEXP>
 		<SEQ_REGEXP HASH_CHAR="\k" TYPE="LITERAL3">.+?\\k\*</SEQ_REGEXP>
-		<SEQ_REGEXP HASH_CHAR="\ndx" TYPE="LITERAL3">.+?\\ndx\*</SEQ_REGEXP>
 		<SEQ_REGEXP HASH_CHAR="\pro" TYPE="LITERAL3">.+?\\pro\*</SEQ_REGEXP>
 		<SEQ_REGEXP HASH_CHAR="\w " TYPE="LITERAL3">.+?\\w\*</SEQ_REGEXP>
 		<SEQ_REGEXP HASH_CHAR="\wa " TYPE="LITERAL3">.+?\\wg\*</SEQ_REGEXP>
