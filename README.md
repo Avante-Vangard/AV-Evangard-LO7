@@ -19,6 +19,8 @@ __2. Choosing Fonts in LibreOffice Writer.__
 
 __3. Build stylesheet in LibreOffice Calc.__
 
+__Note:__ supported version of LibreOffice Calc is 6.4.7.2 -- version 7 doesn't work. 
+
   _a. Shaping_
   
 All fonts should be scaled so the height of a capital X matches the Cormorant font.
