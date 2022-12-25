@@ -1,0 +1,55 @@
+// =========================================
+//          p.sfm 2 vplpsfm 
+// =========================================
+//  This script converts clean p.sfm files into vplpsfm files.
+// -----------------------------------------
+//  meanings
+// -----------------------------------------
+//     clean - psfm checks all pass
+//     p.sfm - See evangard or p.sfm specification
+//     vplpsfm - See Remix documentation
+// -----------------------------------------
+// 
+// Macros menu.
+SearchAndReplace.setSearchString("\\n\\\\mte9 ~ *$");
+SearchAndReplace.setReplaceString("");
+SearchAndReplace.setBeanShellReplace(false);
+SearchAndReplace.setWholeWord(false);
+SearchAndReplace.setIgnoreCase(false);
+SearchAndReplace.setRegexp(true);
+SearchAndReplace.setSearchFileSet(new CurrentBufferSet());
+SearchAndReplace.replaceAll(view);
+
+SearchAndReplace.setSearchString(" +$");
+SearchAndReplace.setReplaceString("");
+SearchAndReplace.replaceAll(view);
+
+SearchAndReplace.setSearchString("  +");
+SearchAndReplace.setReplaceString(" ");
+SearchAndReplace.replaceAll(view);
+
+SearchAndReplace.setSearchString("^(\\\\[^ ]+) *\\n(\\\\v [^ ]+ )");
+SearchAndReplace.setReplaceString(" $2<>$1 ");
+SearchAndReplace.replaceAll(view);
+
+SearchAndReplace.setSearchString("^ +");
+SearchAndReplace.setReplaceString("");
+SearchAndReplace.replaceAll(view);
+
+SearchAndReplace.setSearchString("\\n(\\\\[^v])");
+SearchAndReplace.setReplaceString("<>$1");
+SearchAndReplace.replaceAll(view);
+
+textArea.goToBufferStart(false);
+
+SearchAndReplace.setSearchString("<>\\\\(id |c )");
+SearchAndReplace.setReplaceString("\\n\\\\$1");
+SearchAndReplace.replaceAll(view);
+
+SearchAndReplace.setSearchString("\\\\n\\\\n+");
+SearchAndReplace.setReplaceString("\\\\n");
+SearchAndReplace.replaceAll(view);
+
+SearchAndReplace.setSearchString("^(\\\\id \\w+|\\\\c \\d+|\\\\v \\d+) ");
+SearchAndReplace.setReplaceString("$1\t");
+SearchAndReplace.replaceAll(view);

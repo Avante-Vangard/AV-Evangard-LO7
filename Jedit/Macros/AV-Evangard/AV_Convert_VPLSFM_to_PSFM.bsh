@@ -1,0 +1,54 @@
+// =========================
+// convert vpl.p.sfm into p.sfm
+SearchAndReplace.setSearchString("\\t\\\\v \\d+ ");
+SearchAndReplace.setReplaceString(" ");
+SearchAndReplace.setBeanShellReplace(false);
+SearchAndReplace.setWholeWord(false);
+SearchAndReplace.setIgnoreCase(false);
+SearchAndReplace.setRegexp(true);
+SearchAndReplace.setSearchFileSet(new CurrentBufferSet());
+SearchAndReplace.replaceAll(view);
+
+SearchAndReplace.setSearchString("(\\\\v [\\d-]+) <>(\\\\[^ ]) ");
+SearchAndReplace.setReplaceString("$2<>$1 ");
+SearchAndReplace.replaceAll(view);
+
+SearchAndReplace.setSearchString("<>");
+SearchAndReplace.setReplaceString("\\n");
+SearchAndReplace.replaceAll(view);
+
+SearchAndReplace.setSearchString("\\t\\\\f ");
+SearchAndReplace.setReplaceString("");
+SearchAndReplace.replaceAll(view);
+
+SearchAndReplace.setSearchString("\\t");
+SearchAndReplace.setReplaceString("\\n");
+SearchAndReplace.replaceAll(view);
+
+SearchAndReplace.setSearchString("\\n\\n+");
+SearchAndReplace.setReplaceString("\\n");
+SearchAndReplace.replaceAll(view);
+
+SearchAndReplace.setSearchString(" +$");
+SearchAndReplace.setReplaceString("");
+SearchAndReplace.replaceAll(view);
+
+SearchAndReplace.setSearchString("^([^\\n]+)\\\\p *$");
+SearchAndReplace.setReplaceString("\\\\p $1");
+SearchAndReplace.replaceAll(view);
+
+SearchAndReplace.setSearchString("\\\\p \\\\m ");
+SearchAndReplace.setReplaceString("\\\\m ");
+SearchAndReplace.replaceAll(view);
+
+SearchAndReplace.setSearchString("^(\\\\sr [^\\n]+\\n)\\\\p ");
+SearchAndReplace.setReplaceString("$1\\\\m ");
+SearchAndReplace.replaceAll(view);
+
+SearchAndReplace.setSearchString("^(\\\\sr [^\\n]+\\n)(\\\\ord )");
+SearchAndReplace.setReplaceString("$1\\\\m $2");
+SearchAndReplace.replaceAll(view);
+
+SearchAndReplace.setSearchString("\\n(\\\\ord )");
+SearchAndReplace.setReplaceString(" $1");
+SearchAndReplace.replaceAll(view);

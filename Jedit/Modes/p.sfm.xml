@@ -18,9 +18,9 @@ KEYWORD3	imt, imt#, imte, imte#, ms, ms#, mt, mt#, mte, mte#,
 KEYWORD4	d, iot, is, is#, lf, lh, qa, r, s, s#, sp, sr, xtSee, xtSeeAlso
 LABEL		wj-wj*, nd-nd*
 LITERAL1		fp-fp*, fs-fs*, ft-ft*, no-no*, sc-sc*, va-va*, vp-vp*, xt-xt*
-LITERAL2		add-add*, bk-bk*, dc-dc*, fq-fq*, fqa-fqa*, fv-fv*, ior-ior*, iqt-iqt*, it-it*, lik-lik*, nl-nl* ord-ord*, pn-pn*, qac-qac*, qs-qs*, qt-qt*, rq-rq*, sls-sls*, tl-tl*, sls-sls*, va-va*, xq-xq*, xt-xt*
-LITERAL3		ca-ca*, bd-bd*, fk-fk*, fl-fl*, fm-fm*, fr-fr*, k-k*, pro-pro*, w-w*, wg-wg*, wh-wh*, wr-wr*, xk-xk*
-LITERAL4		bdit-bdit*, em-em*, n-n*, nh-nh* , sig-sig*
+LITERAL2		add-add*, bk-bk*, dc-dc*, fq-fq*, fqa-fqa*, fv-fv*, ior-ior*, iqt-iqt*, it-it*, iti-iti*, lik-lik*, nl-nl* ord-ord*, pn-pn*, qac-qac*, qs-qs*, qt-qt*, rq-rq*, sls-sls*, tl-tl*, sls-sls*, va-va*, xq-xq*, xt-xt*
+LITERAL3		ca-ca*, bd-bd*, fk-fk*, fl-fl*, fm-fm*, fr-fr*, ibd-ibd*, isb-isb*, k-k*, pro-pro*, w-w*, wg-wg*, wh-wh*, wr-wr*, xk-xk*
+LITERAL4		bdit-bdit*, em-em*, iem-iem*, n-n*, nh-nh* , sig-sig*
 MARKUP		erq, esb, esbe, fig-fig*, jmp-jmp*, pb, 
 OPERATOR
 -->
@@ -197,6 +197,7 @@ OPERATOR
 		<SEQ_REGEXP HASH_CHAR="\fp" TYPE="LITERAL1">.+?\\fp\*</SEQ_REGEXP>
 		<SEQ_REGEXP HASH_CHAR="\fs" TYPE="LITERAL1">.+?\\fs\*</SEQ_REGEXP>
 		<SEQ_REGEXP HASH_CHAR="\ft" TYPE="LITERAL1">.+?\\ft\*</SEQ_REGEXP>
+		<SEQ_REGEXP HASH_CHAR="\ino" TYPE="LITERAL1">.+?\\ino\*</SEQ_REGEXP>
 		<SEQ_REGEXP HASH_CHAR="\no" TYPE="LITERAL1">.+?\\no\*</SEQ_REGEXP>
 		<SEQ_REGEXP HASH_CHAR="\sc " TYPE="LITERAL1">.+?\\sc\*</SEQ_REGEXP>
 		<SEQ_REGEXP HASH_CHAR="\va " TYPE="LITERAL1">.+?\\va\*</SEQ_REGEXP>
@@ -211,6 +212,7 @@ OPERATOR
 		<SEQ_REGEXP HASH_CHAR="\ior" TYPE="LITERAL2">.+?\\ior\*</SEQ_REGEXP>
 		<SEQ_REGEXP HASH_CHAR="\iqt" TYPE="LITERAL2">.+?\\iqt\*</SEQ_REGEXP>
 		<SEQ_REGEXP HASH_CHAR="\it" TYPE="LITERAL2">.+?\\it\*</SEQ_REGEXP>
+		<SEQ_REGEXP HASH_CHAR="\iti" TYPE="LITERAL2">.+?\\iti\*</SEQ_REGEXP>
 		<SEQ_REGEXP HASH_CHAR="\lik" TYPE="LITERAL2">.+?\\lik\*</SEQ_REGEXP>
 		<SEQ_REGEXP HASH_CHAR="\nl" TYPE="LITERAL2">.+?\\nl\*</SEQ_REGEXP>
 		<SEQ_REGEXP HASH_CHAR="\ord" TYPE="LITERAL2">.+?\\ord\*</SEQ_REGEXP>
@@ -230,6 +232,8 @@ OPERATOR
 		<SEQ_REGEXP HASH_CHAR="\fm" TYPE="LITERAL3">.+?\\fm\*</SEQ_REGEXP>
 		<SEQ_REGEXP HASH_CHAR="\fr" TYPE="LITERAL3">.+?\\fr\*</SEQ_REGEXP>
 		<SEQ_REGEXP HASH_CHAR="\fv" TYPE="LITERAL3">.+?\\fv\*</SEQ_REGEXP>
+		<SEQ_REGEXP HASH_CHAR="\ibd" TYPE="LITERAL3">.+?\\ibd\*</SEQ_REGEXP>
+		<SEQ_REGEXP HASH_CHAR="\isd" TYPE="LITERAL3">.+?\\isb\*</SEQ_REGEXP>
 		<SEQ_REGEXP HASH_CHAR="\k" TYPE="LITERAL3">.+?\\k\*</SEQ_REGEXP>
 		<SEQ_REGEXP HASH_CHAR="\pro" TYPE="LITERAL3">.+?\\pro\*</SEQ_REGEXP>
 		<SEQ_REGEXP HASH_CHAR="\w " TYPE="LITERAL3">.+?\\w\*</SEQ_REGEXP>
@@ -242,6 +246,7 @@ OPERATOR
 		
 		<SEQ_REGEXP HASH_CHAR="\bdit" TYPE="LITERAL4">.+?\\bdit\*</SEQ_REGEXP>
 		<SEQ_REGEXP HASH_CHAR="\em" TYPE="LITERAL4">.+?\\em\*</SEQ_REGEXP>
+		<SEQ_REGEXP HASH_CHAR="\iem" TYPE="LITERAL4">.+?\\iem\*</SEQ_REGEXP>
 		<SEQ_REGEXP HASH_CHAR="\n" TYPE="LITERAL4">.+?\\n\*</SEQ_REGEXP>
 		<SEQ_REGEXP HASH_CHAR="\nh" TYPE="LITERAL4">.+?\\nh\*</SEQ_REGEXP>
 		<SEQ_REGEXP HASH_CHAR="\sig " TYPE="LITERAL4">.+?\\sig\*</SEQ_REGEXP>

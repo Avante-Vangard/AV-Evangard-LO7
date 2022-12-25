@@ -1,0 +1,137 @@
+.			NotoSerif/Kanit							.
+	IDX	Class	Style	Font	Style	Sz X	Shrink	Skew	Weight	
+	B10	Serif	Thin Roman	Noto Serif	Regular	89	88	normal	400	
+	B10 									
+	B11	Serif	Thin Italic	Noto Serif	Italic	90	88	italic	400	
+	B11 									
+	B20	Serif	Ex Light Roman	Noto Serif	Regular	89	88	normal	400	
+	B20 									
+	B21	Serif	Ex Light Italic	Noto Serif	Italic	90	88	italic	400	
+	B21 									
+	B30	Serif	Light Roman	Noto Serif	Regular	89	88	normal	400	
+	B30 									
+	B31	Serif	Light Italic	Noto Serif	Italic	90	88	italic	400	
+	B31 									
+	B40	Serif	Book Roman	Noto Serif	Regular	89	88	normal	400	
+	B40 									
+	B41	Serif	Book Italic	Noto Serif	Italic	90	88	italic	400	
+	B41 									
+	B50	Serif	Medium Roman	Noto Serif	Regular	89	88	normal	400	
+	B50 									
+	B51	Serif	Medium Italic	Noto Serif	Italic	90	88	italic	400	
+	B51 									
+	B60	Serif	Semibold Roman	Noto Serif	Bold	84	88	normal	700	
+	B60 									
+	B61	Serif	Semibold Italic	Noto Serif	Bold Italic	83	88	italic	700	
+	B61 									
+	B70	Serif	Bold Text	Noto Serif	Bold	84	88	normal	700	
+	B70 									
+	B71	Serif	Bold Italic	Noto Serif	Bold Italic	83	88	italic	700	
+	B71 									
+	B80	Serif	Heavy Text	Noto Serif	Bold	84	88	normal	700	
+	B80 									
+	B81	Serif	Heavy Italic	Noto Serif	Bold Italic	83	88	italic	700	
+	B81 									
+	B90	Serif	Black Text	Noto Serif	Bold	84	88	normal	700	
+	B90 									
+	B91	Serif	Black Italic	Noto Serif	Bold Italic	83	88	italic	700	
+	B91 									
+	B92	Serif	Space after verse	Noto Serif	Regular	44	88	normal	400	
+	B92 									
+	C40	Serif	Caption Text	Noto Serif	Regular	89	89	normal	400	
+	C40 									
+	C41	Serif	Caption Italics	Noto Serif	Italic	90	89	italic	400	
+	C41 									
+	C46	Sans	Caption Text	Kanit Light	Regular	101	97	normal	300	
+	C46 									
+	C47	Sans	Caption Italics	Kanit Light	Italic	101	97	italic	300	
+	C47 									
+	C70	Serif	Caption Bold	Noto Serif	Bold	84	89	normal	700	
+	C70 									
+	C71	Serif	Caption Bold Italic	Noto Serif	Bold Italic	83	89	italic	700	
+	C71 									
+	C76	Sans	Caption Bold	Kanit	Medium	97	97	normal	500	
+	C76 									
+	C77	Sans	Caption Bold Italic	Kanit	Medium	97	97	italic	500	
+	C77 									
+	S10	Sans	Thin Roman	Kanit Thin	Regular	103	97	normal	250	
+	S10 									
+	S11	Sans	Thin Italic	Kanit Thin	Light Italic	103	97	italic	250	
+	S11 									
+	S20	Sans	Ex Light Roman	Kanit ExtraLight	Regular	101	97	normal	275	
+	S20 									
+	S21	Sans	Ex Light Italic	Kanit ExtraLight	Italic	101	97	normal	275	
+	S21 									
+	S30	Sans	Light Roman	Kanit ExtraLight	Regular	101	97	normal	275	
+	S30 									
+	S31	Sans	Light Italic	Kanit ExtraLight	Italic	101	97	normal	275	
+	S31 									
+	S40	Sans	Book Roman	Kanit Light	Regular	101	97	normal	300	
+	S40 									
+	S41	Sans	Book Italic	Kanit Light	Italic	101	97	italic	300	
+	S41 									
+	S50	Sans	Medium Roman	Kanit Light	Regular	101	97	normal	300	
+	S50 									
+	S51	Sans	Medium Italic	Kanit Light	Italic	101	97	italic	300	
+	S51 									
+	S60	Sans	Semibold Roman	Kanit	Regular	100	97	normal	400	
+	S60 									
+	S61	Sans	Semibold Italic	Kanit	Italic	100	97	italic	400	
+	S61 									
+	S70	Sans	Bold Roman	Kanit Medium	Regular	97	97	normal	500	
+	S70 									
+	S71	Sans	Bold Italic	Kanit Medium	Italic	97	97	italic	500	
+	S71 									
+	S80	Sans	Heavy Text	Kanit SemiBold	Regular	97	97	normal	600	
+	S80 									
+	S81	Sans	Heavy Italic	Kanit SemiBold	Italic	97	97	italic	600	
+	S81 									
+	S90	Sans	Black Text	Kanit	Bold	97	97	normal	700	
+	S90 									
+	S91	Sans	Black Italic	Kanit	Bold Italic	97	97	italic	700	
+	S91 									
+	T10	Title	Thin Title	Roboto Slab	Thin	90	90	normal	250	
+	T10 									
+	T11	Title	Thin Title Italics	Roboto Slab	Thin	90	90	italic	250	
+	T11 									
+	T30	Title	Light Title	Roboto Slab	Light	90	90	normal	300	
+	T30 									
+	T31	Title	Light Title Italic	Roboto Slab	Light	90	90	italic	300	
+	T31 									
+	T40	Title	Regular Title	Roboto Slab	Light	90	90	normal	300	
+	T40 									
+	T41	Title	Regular Title Italic	Roboto Slab	Light	90	90	italic	300	
+	T41 									
+	T50	Title	Medium Title	Roboto Slab	Regular	89	90	normal	400	
+	T50 									
+	T51	Title	Medium Title Italic	Roboto Slab	Regular	88	90	italic	400	
+	T51 									
+	T60	Title	Semibold Title	Roboto Slab	Regular	89	90	normal	400	
+	T60 									
+	T61	Title	Semibold Title Italic	Roboto Slab	Regular	88	90	italic	400	
+	T61 									
+	T70	Title	Bold Title	Roboto Slab	Bold	90	90	normal	700	
+	T70 									
+	T71	Title	Bold Title Italic	Roboto Slab	Bold	90	90	italic	700	
+	T71 									
+	T80	Title	Heavy Title	Roboto Slab	Bold	90	90	normal	700	
+	T80 									
+	T81	Title	Heavy Title Italic	Roboto Slab	Bold	90	90	italic	700	
+	T81 									
+	T90	Title	Black Title	Roboto Slab	Bold	90	90	normal	700	
+	T90 									
+	T91	Title	Black Title Italic	Roboto Slab	Bold	90	90	italic	700	
+	T91 									
+	V30	Verse	Light Pen	Almendra Display	Regular	93	89	normal	bold	
+	V30 									
+	V31	Verse	Light Pen Cursive	Almendra Display	Regular	93	89	normal	bold	
+	V31 									
+	V50	Verse	Medium Pen	Almendra	Regular	98	93	normal	400	
+	V50 									
+	V51	Verse	Medium Pen Cursive	Almendra	Italic	105	93	italic	400	
+	V51 									
+	V70	Verse	Bold Pen	Almendra	Bold	92	93	normal	700	
+	V70 									
+	V71	Verse	Bold Pen Cursive	Almendra	Bold Italic	96	93	italic	700	
+	V71 									
+.										.

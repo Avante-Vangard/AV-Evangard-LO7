@@ -1,0 +1,129 @@
+.			Alegreya		c					.
+	IDX	Class	Style	Font	Face	ScaleX	Shrink	Skew	Weight	
+	B10	Body	Thin Serif	Alegreya	Regular	95	97	normal	400	
+	B10 									
+	B11	Body	Thin Serif Italic	Alegreya	Italic	95	97	italic	400	
+	B11 									
+	B30	Body	Light Serif	Alegreya	Regular	95	97	normal	400	
+	B30 									
+	B31	Body	Light Serif Italic	Alegreya	Italic	95	97	italic	400	
+	B31 									
+	B40	Body	Book Serif	Alegreya	Regular	95	97	normal	400	
+	B40 									
+	B41	Body	Book Serif Italic	Alegreya	Italic	95	97	italic	400	
+	B41 									
+	B50	Body	Medium Serif	Alegreya Medium	Regular	95	97	normal	500	
+	B50 									
+	B51	Body	Medium Serif Italic	Alegreya Medium	Italic	95	97	italic	500	
+	B51 									
+	B60	Body	Semibold Serif	Alegreya Medium	Regular	95	97	normal	500	
+	B60 									
+	B61	Body	Semibold Serif Italic	Alegreya Medium	Italic	95	97	italic	500	
+	B61 									
+	B70	Body	Bold Serif	Alegreya	Bold	95	97	normal	700	
+	B70 									
+	B71	Body	Bold Serif Italic	Alegreya	Bold Italic	95	97	italic	700	
+	B71 									
+	B80	Body	Heavy Serif	Alegreya ExtraBold	Regular	95	97	normal	800	
+	B80 									
+	B81	Body	Heavy Serif Italic	Alegreya ExtraBold	Bold Italic	95	97	italic	800	
+	B81 									
+	B90	Body	Black Serif	Alegreya Black	Regular	95	97	normal	900	
+	B90 									
+	B91	Body	Black Serif Italic	Alegreya Black	Italic	95	97	italic	900	
+	B91 									
+	B92	Body	Space after Verse	Alegreya	Regular	50	97	normal	400	
+	B92 									
+	C40	Caption	Caption Text	Alegreya	Regular	95	97	normal	400	
+	C40 									
+	C41	Caption	Caption Italics	Alegreya	Italic	95	97	italic	400	
+	C41 									
+	C46	Caption	Caption Sans Text	Alegreya Sans	Regular	99	97	normal	400	
+	C46 									
+	C47	Caption	Caption Sans Italics	Alegreya Sans	Italic	99	97	italic	400	
+	C47 									
+	C70	Caption	Caption Bold	Alegreya	Bold	95	97	normal	700	
+	C70 									
+	C71	Caption	Caption Bold Italic	Alegreya	Bold Italic	95	97	italic	700	
+	C71 									
+	C76	Caption	Caption Sans Bold	Alegreya Sans	Bold	99	97	normal	700	
+	C76 									
+	C77	Caption	Caption Sans Bold Italic	Alegreya Sans	Bold Italic	99	97	italic	700	
+	C77 									
+	S10	Sans	Thin Sans	Alegreya Sans Thin	Regular	99	97	normal	250	
+	S10 									
+	S11	Sans	Thin Sans Italic	Alegreya Sans Thin	Italic	99	97	italic	250	
+	S11 									
+	S30	Sans	Light Sans	Alegreya Sans Light	Regular	99	97	normal	300	
+	S30 									
+	S31	Sans	Light Sans Italic	Alegreya Sans Light	Italic	99	97	italic	300	
+	S31 									
+	S40	Sans	Book Sans	Alegreya Sans	Regular	99	97	normal	400	
+	S40 									
+	S41	Sans	Book Sans Italic	Alegreya Sans	Italic	99	97	italic	400	
+	S41 									
+	S50	Sans	Medium Sans	Alegreya Sans Medium	Regular	99	97	normal	500	
+	S50 									
+	S51	Sans	Medium Sans Italic	Alegreya Sans Medium	Italic	99	97	italic	500	
+	S51 									
+	S60	Sans	Semibold Sans	Alegreya Sans Medium	Bold	99	97	normal	500	
+	S60 									
+	S61	Sans	Semibold Sans Italic	Alegreya Sans Medium	Bold Italic	99	97	italic	500	
+	S61 									
+	S70	Sans	Bold Sans	Alegreya Sans	Bold	99	97	normal	700	
+	S70 									
+	S71	Sans	Bold Sans Italic	Alegreya Sans	Bold Italic	99	97	italic	700	
+	S71 									
+	S80	Sans	Heavy Sans	Alegreya Sans ExtraBold	Regular	99	97	normal	800	
+	S80 									
+	S81	Sans	Heavy Sans Italic	Alegreya Sans ExtraBold	Italic	99	97	italic	800	
+	S81 									
+	S90	Sans	Black Sans	Alegreya Sans Black	Regular	99	97	normal	900	
+	S90 									
+	S91	Sans	Black Sans Italic	Alegreya Sans Black	Italic	99	97	italic	900	
+	S91 									
+	T10	Title	Thin Title	Almendra Display	Regular	93	89	normal	bold	
+	T10 									
+	T11	Title	Thin Title Italics	Almendra Display	Regular	93	89	normal	bold	
+	T11 									
+	T30	Title	Light Title	Almendra Display	Regular	93	89	normal	bold	
+	T30 									
+	T31	Title	Light Title Italic	Almendra Display	Regular	93	89	normal	bold	
+	T31 									
+	T40	Title	Regular Title	Almendra	Regular	98	93	normal	400	
+	T40 									
+	T41	Title	Regular Title Italic	Almendra	Italic	105	93	italic	400	
+	T41 									
+	T50	Title	Medium Title	Almendra	Regular	98	93	normal	400	
+	T50 									
+	T51	Title	Medium Title Italic	Almendra	Italic	105	93	italic	400	
+	T51 									
+	T60	Title	Semibold Title	Almendra	Regular	98	93	normal	400	
+	T60 									
+	T61	Title	Semibold Title Italic	Almendra	Italic	105	93	italic	400	
+	T61 									
+	T70	Title	Bold Title	Almendra	Bold	92	93	normal	700	
+	T70 									
+	T71	Title	Bold Title Italic	Almendra	Bold Italic	96	93	italic	700	
+	T71 									
+	T80	Title	Heavy Title	Almendra	Bold	92	93	normal	700	
+	T80 									
+	T81	Title	Heavy Title Italic	Almendra	Bold Italic	96	93	italic	700	
+	T81 									
+	T90	Title	Black Title	Almendra	Bold	92	93	normal	700	
+	T90 									
+	T91	Title	Black Title Italic	Almendra	Bold Italic	96	93	italic	700	
+	T91 									
+	V30	Verse	Light Pen	Almendra Display	Regular	93	89	normal	bold	
+	V30 									
+	V31	Verse	Light Pen Cursive	Almendra Display	Regular	93	89	normal	bold	
+	V31 									
+	V50	Verse	Medium Pen	Almendra	Regular	98	93	normal	400	
+	V50 									
+	V51	Verse	Medium Pen Cursive	Almendra	Italic	105	93	italic	400	
+	V51 									
+	V70	Verse	Bold Pen	Almendra	Bold	92	93	normal	700	
+	V70 									
+	V71	Verse	Bold Pen Cursive	Almendra	Bold Italic	96	93	italic	700	
+	V71 									
+.										.

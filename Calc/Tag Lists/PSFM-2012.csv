@@ -1,0 +1,582 @@
+[p.sfm] v2212	Sort	S	M	P	F	C	Description	U2.3	U2.35	U2.4	U2.404	U3.0	V2211	Special	Base	Face	Vert	Horz	Extra	X2	.	Example
+m	Z			1			Flush Left Margin Paragraph	27	30	30	S	X	1			B40	L10	M	Default			
+f ... f*	X				1		Footnote	41	44	44		X	1	Convert to Footnote	m	C76	F10	M				
+im	X			1			Intro Margin Paragraph	12	15	15		X	1		m	S40		M	SPN			
+iq	X			1			Intro Poetry Paragraph	14	17	17		X	1		im	S40		C				
+mt	X			1			Major Title	18	21	21	S	X	1		m	T50	L90	CB	KPN	SPN		
+q	X			1			Poetry Paragraph	34	37	37	S	X	1		m			C	QVS			
+[[ ... ]] ($)	W	1	1			1	Verse Text Placeholder [p.sfm]						0				R00		Clear			
+[{ ... }] ($)	W	1	1			1	Tag Variable Text Placement marker [p.sfm]						0	Insert contents of variable named here			R00		Clear			
+cat ... cat* ($)	V	1	1			1	Category	76	86	88		E	0	TextVariable: character			R00		Clear			
+cn ... cn* ($)	V	1				1	Chapter Number in Header [p.sfm]						0.9	created in converter		T50				FPL		
+cp ( $)	V	1					Published Chapter	24	27	27		X	1		rem							
+fig0 (&)	V		1	1			Figure Dimensions [p.sfm]						1	TextVariable: 	rem							
+fig1 (&)	V		1	1			Figure Description [USFM]						1	TextVariable: 	rem							
+fig2 (&)	V		1	1			Figure Filename [USFM]						1	TextVariable: 	rem							
+fig3 (&)	V		1	1			Figure Scripture Range [USFM]						1	TextVariable: 	rem							
+fig4 (&)	V		1	1			Figure Rights [USFM]						1	TextVariable: 	rem							
+fig5 (&)	V		1	1			Figure Caption [USFM]						1	TextVariable: 	rem							
+fig6 (&)	V		1	1			Figure Reference [USFM]						1	TextVariable: 	rem							
+fig7 (&)	V		1	1			Figure Horiz Dimension [p.sfm]						1	TextVariable: 	rem							
+fig8 (&)	V		1	1			Figure Vertical Dim [p.sfm]						1	TextVariable: 	rem							
+fig9 (&)	V		1	1			Figure Data [p.sfm]						1	TextVariable: 	rem							
+h (&)	V		1	1			Header Text [USFM]				S	X	1	TextVariable: paragraph	rem							
+h0 (&)	V		1	1			Header Even Page Outside [p.sfm]					D	1	TextVariable: paragraph	rem							
+h1 (&)	V		1	1			Header Odd Page Outside [p.sfm]	9	9	9	S	D	1	TextVariable: paragraph	rem							
+h2 (&)	V		1	1			Header Even Page Inside  [p.sfm]	9	9	9	S	D	1	TextVariable: paragraph	rem							
+h3 (&)	V		1	1			Header Odd Page Inside [p.sfm]	9	9	9	S	D	1	TextVariable: paragraph	rem							
+h4 (&)	V		1	1			Header Even Page Center [p.sfm]	9	9	9		D	1	TextVariable: paragraph	rem							
+h5 (&)	V		1	1			Header Odd Page Center [p.sfm]	9	9	9		D	1	TextVariable: paragraph	rem							
+h6 (&)	V		1	1			Footer Even Page Outside [p.sfm]	9	9	9		D	1	TextVariable: paragraph	rem							
+h7 (&)	V		1	1			Footer Odd Page Outside [p.sfm]	9	9	9		D	1	TextVariable: paragraph	rem							
+h8 (&)	V		1	1			Footer Even Page Inside [p.sfm]	9	9	9		D	1	TextVariable: paragraph	rem							
+h9 (&)	V		1	1			Footer Odd Page Inside [p.sfm]	9	9	9		D	1	TextVariable: paragraph	rem							
+id (&)	V		1	1			Project ID-complete field	8	8	8		X	0.7	TextVariable: paragraph	rem				PB			\id GEN ENG-US (p.sfm) - [GTP] Galilee Translation Project 2021[CC0] Hackett [7]
+id0 (&)	V		1	1			Project ID-File ID [USFM]	8	8	8		X	0.5	TextVariable: paragraph	rem				PB			
+id1 (&)	V		1	1			Project ID-ISO639 Language [p.sfm]	8	8	8			0.5	TextVariable: paragraph	rem				PB			
+id2 (&)	V		1	1			Project ID-ISO3166 Country [p.sfm]	8	8	8			0.5	TextVariable: paragraph	rem				PB			
+id3 (&)	V		1	1			Project ID-Tagging Language [p.sfm]	8	8	8			0.5	TextVariable: paragraph	rem				PB			
+id4 (&)	V		1	1			Project ID-Acronym (3Letter) [p.sfm]	8	8	8			0.5	TextVariable: paragraph	rem				PB			
+id5 (&)	V		1	1			Project ID Title [p.sfm]	8	8	8			0.5	TextVariable: paragraph	rem				PB			
+id6 (&)	V		1	1			Project ID Text Freeze Date [p.sfm]	8	8	8			0.5	TextVariable: paragraph	rem				PB			
+id7 (&)	V		1	1			Project ID Rights Code [p.sfm] (creative commons)	8	8	8			0.5	TextVariable: paragraph	rem				PB			
+id8 (&)	V		1	1			Project ID Rights Owner [p.sfm] (of final work)	8	8	8			0.5	TextVariable: paragraph	rem				PB			
+id9 (&)	V		1	1			Project ID Status Level [p.sfm] (1-7 p.sfm publishing status, not 1-3 USFM community acceptance.)	8	8	8			0.5	TextVariable: paragraph	rem				PB			
+ide (&)	V		1	1			Project encoding	8	8	8		X	1	TextVariable: paragraph	rem							
+periph (&)	V		1	1			Peripheral ID-Full field	56	59	61		X	0.7	TextVariable: paragraph	rem				SPN	PB		
+periph0 (&)	V		1	1			Peripheral ID Code [USFM]	56	59	61		N	0.7	TextVariable: paragraph	rem				SPN	PB		
+periph1 (&)	V		1	1			Peripheral Name [p.sfm]	56	59	61			0.7	TextVariable: paragraph	rem				SPN	PB		
+periph2 (&)	V		1	1			Peripheral Description [p.sfm]	56	59	61			0.7	TextVariable: paragraph	rem				SPN	PB		
+periph3 (&)	V		1	1			Peripheral Variable [p.sfm]	56	59	61			0.7	TextVariable: paragraph	rem				SPN	PB		
+periph4 (&)	V		1	1			Peripheral Variable [p.sfm]	56	59	61			0.7	TextVariable: paragraph	rem				SPN	PB		
+periph5 (&)	V		1	1			Peripheral Variable [p.sfm]	56	59	61			0.7	TextVariable: paragraph	rem				SPN	PB		
+periph6 (&)	V		1	1			Peripheral Variable [p.sfm]	56	59	61			0.7	TextVariable: paragraph	rem				SPN	PB		
+periph7 (&)	V		1	1			Peripheral Variable [p.sfm]	56	59	61			0.7	TextVariable: paragraph	rem				SPN	PB		
+periph8 (&)	V		1	1			Peripheral Variable [p.sfm]	56	59	61			0.7	TextVariable: paragraph	rem				SPN	PB		
+periph9 (&)	V		1	1			Peripheral Variable [p.sfm]	56	59	61			0.7	TextVariable: paragraph	rem				SPN	PB		
+qvs ... ($)	V	1				1	Backspace v in poetry [p.sfm]						0						TQV			
+rem (&)	V		1	1			Remark	9	9	9		X	1	USFM Notes (hidden)	m	T50	R00	M0	Clear			
+sts (&)	V		1	1			Project status	8	8	8		X	1	TextVariable: paragraph	rem							
+usfm (&)	V		1	1			Version declaration [USFM]					N	1	TextVariable: paragraph	rem							
+vn … vn ($)	V	1		1		1	Verse Number in Header [p.sfm]						0.9	created in converter		T50				FPL		
+_ [ ... ]($)	S	1				1	Styled space after verse [p.sfm]	25					0.4	no break		B92						
+// ... ($)	S	1				1	Optional breakpoint	53	56	56			0.4	rest of Paragraph >  nb space (~)								
+~ [ ... ]	S	1				1	Non-breaking space Character						1	Replace with nbsp					NB	Clear		
+c (.) ( $)	S	1	1	1			Chapter Number	23	26	26			1	Drop Caps	m				DC			
+col	S		1	1			Figure in column [p.sfm]	54	57	57			0.5		m			C				
+qs ... qs*	S	1				1	Selah	35	38	38			0.4	need \u0008 before style (shift-tab)		B41						
+span	S		1	1			Figure spans columns [p.sfm]	54	57	57			0.5	LO: start 1 column section	m			CB	SPN			
+v (.) ( $)	S	1				1	Verse Number	25	28	28			1	1 word style		S60			SUP	FPL		
+vp ... vp* ( $)	S	1				1	Published Verse	26	29	29			0.8	untested			B10		Clear			
+fig ... fig* ($)	R	1	1			1	"Illustration [p.sfm]
+desc(H x V)|url|cols|na|src|cap|ref"	54	57	57			0.5	Insert Illustration								\pc \fig Desc1(200-8 x 100-9pt0)|Url-1|Span-2|LocRange-3|Rights-4|Caption-5|Ref-6\fig*
+jmp ...|...jmp*	R					1	jump to target within document					N	0.5	NEEDS pipe handling								
+toc (&)	R		1	1			TOC Major Section [p.sfm]	O	O	O	O	O	1	TextVariable: paragraph	rem							
+toc0 (&)	R		1	1			TOC Subsection [p.sfm]						1	TextVariable: paragraph	rem							
+toc1 (&)	R		1	1			TOC Long Book Name [USFM]	9	9	9			1	TextVariable: paragraph	rem							
+toc2 (&)	R		1	1			Short TOC text [USFM]	9	9	9			1	TextVariable: paragraph	rem							
+toc3 (&)	R		1	1			TOC Book Abbreviation [USFM]	9	9	9			1	TextVariable: paragraph	rem							
+toc4 (&)	R		1	1			Published Number Chapters [p.sfm]						1	TextVariable: paragraph	rem							
+toc5 (&)	R		1	1			TOC Data [p.sfm]						1	TextVariable: paragraph	rem							
+toc6 (&)	R		1	1			TOC Data [p.sfm]						1	TextVariable: paragraph	rem							
+toc7 (&)	R		1	1			TOC Data [p.sfm]						1	TextVariable: paragraph	rem							
+toc8 (&)	R		1	1			TOC Data [p.sfm]						1	TextVariable: paragraph	rem							
+toc9 (&)	R		1	1			TOC Data [p.sfm]						1	TextVariable: paragraph	rem							
+toca (&)	R		1	1			Alt Lang TOC Major Section [p.sfm]						1	TextVariable: paragraph	rem							
+toca0 (&)	R		1	1			Alt Lang TOC Subsection [p.sfm]						1	TextVariable: paragraph	rem							
+toca1 (&)	R		1	1			Alt TOC Long Name [USFM]	9	9	9			1	TextVariable: paragraph	rem							
+toca2 (&)	R		1	1			Alt TOC Short Name [USFM]	9	9	9			1	TextVariable: paragraph	rem							
+toca3 (&)	R		1	1			Alt TOC Book Abbr [USFM]	9	9	9			1	TextVariable: paragraph	rem							
+toca4 (&)	R		1	1			TOC Data [p.sfm]						1	TextVariable: paragraph	rem							
+toca5 (&)	R		1	1			TOC Data [p.sfm]						1	TextVariable: paragraph	rem							
+toca6 (&)	R		1	1			TOC Data [p.sfm]						1	TextVariable: paragraph	rem							
+toca7 (&)	R		1	1			TOC Data [p.sfm]						1	TextVariable: paragraph	rem							
+toca8 (&)	R		1	1			TOC Data [p.sfm]						1	TextVariable: paragraph	rem							
+toca9 (&)	R		1	1			TOC Data [p.sfm]						1	TextVariable: paragraph	rem							
+ts	R		1	1			Translator's Chunk Marker					N	1		rem							
+w ...|... w*	R	1	1			1	Wordlist Marker w metadata	55	58	58		N	0.5	NEEDS pipe handling								
+b	P			1			Blank Line	33	36	36			1		rem		B10					
+b0	P			1			Blank Line-50% leading [p.sfm]						1		rem		R05					
+b1	P			1			Blank Line-1x leading [p.sfm]						1		rem		B10					
+b2	P			1			Blank Line-2x leading [p.sfm]						1		rem		B20					
+b3	P			1			Blank Line-3x leading [p.sfm]						1		rem		B30					
+b4	P			1			Blank Line-4x leading [p.sfm]						1		rem		B40					
+b5	P			1			Blank Line-5x leading [p.sfm]						1		rem		B50					
+b6	P			1			Blank Line-6x leading [p.sfm]						1		rem		B60					
+b7	P			1			Blank Line-7x leading [p.sfm]						1		rem		B70					
+b8	P			1			Blank Line-8x leading [p.sfm]						1		rem		B80					
+b9	P			1			Blank Line-9x leading [p.sfm]						1		rem		B90					
+cd	P			1			Chapter Description	25	28	28			1		m	S50	L08	CJ	FPL			
+cl ( $)	P	1		1			Chapter Label	24	27	27		X	0.8	If exist, \c stays up.	m	T70	S20	C	VC1	FPL		
+cls	P			1			Closing	31	34	34			1		m							
+d	P			1			Directives Descriptive Title	22	25	25			1		m	B51	L08	CJ				
+erq	P			1			Study Reflective Question Pargraph	77	D				0.5		im	S40	F10					
+ib	P			1			Intro Blank Line	14	17	17			1		rem		B10					
+ib0	P			1			Blank Line-50% leading [p.sfm]						1		rem		R05					
+ib1	P			1			Blank Line-1x leading [p.sfm]						1		rem		B10					
+ib2	P			1			Blank Line-2x leading [p.sfm]						1		rem		B20					
+ib3	P			1			Blank Line-3x leading [p.sfm]						1		rem		B30					
+ib4	P			1			Blank Line-4x leading [p.sfm]						1		rem		B40					
+ib5	P			1			Blank Line-5x leading [p.sfm]						1		rem		B50					
+ib6	P			1			Blank Line-6x leading [p.sfm]						1		rem		B60					
+ib7	P			1			Blank Line-7x leading [p.sfm]						1		rem		B70					
+ib8	P			1			Blank Line-8x leading [p.sfm]						1		rem		B80					
+ib9	P			1			Blank Line-9x leading [p.sfm]						1		rem		B90					
+ie	P			1			Intro End	17	20	20			1		rem		B10					
+iex	P			1			Explanation/Bridge	16	19	19			1		m	B41		CB				
+ili	P			1			Intro List	15	18	18			1		im			H1				
+ili0	P			1			Intro List Lvl 0						1		im			H0				
+ili1	P			1			Intro List Lvl 1	15	18	18			1		im			H1				
+ili2	P			1			Intro List Lvl 2	15	18	18			1		im			H2				
+ili3	P			1			Intro List Lvl 3	15	18	18			1		im			H3				
+ili4	P			1			Intro List Lvl 4	15	18	18			1		im			H4				
+ili5	P			1			Intro List Lvl 5	15	18	18			1		im			H5				
+ili6	P			1			Intro List Lvl 6	15	18	18			1		im			H6				
+ili7	P			1			Intro List Lvl 7	15	18	18			1		im			H7				
+ili8	P			1			Intro List Lvl 8	15	18	18			1		im			H8				
+ili9	P			1			Intro List Lvl 9	15	18	18			1		im			H9				
+im0	P			1			Intro Mrg Parag Lvl 0 [p.sfm]	12	15	15		X	1		im			M0				
+im1	P			1			Intro Mrg Parag Lvl 1 [p.sfm]	12	15	15		X	1		im			M1				
+im2	P			1			Intro Mrg Parag Lvl 2 [p.sfm]	12	15	15		X	1		im			M2				
+im3	P			1			Intro Mrg Parag Lvl 3 [p.sfm]	12	15	15		X	1		im			M3				
+im4	P			1			Intro Mrg Parag Lvl 4 [p.sfm]	12	15	15		X	1		im			M4				
+im5	P			1			Intro Mrg Parag Lvl 5 [p.sfm]	12	15	15		X	1		im			M5				
+im6	P			1			Intro Mrg Parag Lvl 6 [p.sfm]	12	15	15		X	1		im			M6				
+im7	P			1			Intro Mrg Parag Lvl 7 [p.sfm]	12	15	15		X	1		im			M7				
+im8	P			1			Intro Mrg Parag Lvl 8 [p.sfm]	12	15	15		X	1		im			M8				
+im9	P			1			Intro Mrg Parag Lvl 9 [p.sfm]	12	15	15		X	1		im			M9				
+imi	P			1			Intro Mrg Parag Lvl 2	12	15	15			1		im			M2				
+imq	P			1			Intro Margin Quote Par	13	16	16			1		im			M2				
+imt	P			1			Intro Major Title	10	13	13			1		mt	T50	L90		VC1			
+imt0	P			1			Intro Major Title Lvl 0						1		mt	T50	L80		VC1			
+imt1	P			1			Intro Major Title Lvl 1	10	13	13			1		mt	T50	L70		VC1			
+imt2	P			1			Intro Major Title Lvl 2	10	13	13			1		mt	T50	L60		VC1			
+imt3	P			1			Intro Major Title Lvl 3	10	13	13			1		mt	T50	L50		VC1			
+imt4	P			1			Intro Major Title Lvl 4	10	13	13			1		mt	T50	L40		VC1			
+imt5	P			1			Intro Major Title Lvl 5	10	13	13			1		mt	T60	L30					
+imt6	P			1			Intro Major Title Lvl 6	10	13	13			1		mt	T70	L10					
+imt7	P			1			Intro Major Title Lvl 7	10	13	13			1		mt	T70	L10					
+imt8	P			1			Intro Major Title Lvl 8	10	13	13			1		mt	T70	L08					
+imt9	P			1			Intro Major Title Lvl 9	10	13	13			1		mt	T70	L08					
+imte	P			1			Intro End Major Title	17	21	20			1		mt	T50	L90		VC1			
+imte0	P			1			Intro End Major Title Lvl 0						1		mt	T50	L80		VC1			
+imte1	P			1			Intro End Major Title Lvl 1	17	21	20			1		mt	T50	L70		VC1			
+imte2	P			1			Intro End Major Title Lvl 2	17	21	20			1		mt	T50	L60		VC1			
+imte3	P			1			Intro End Major Title Lvl 3	17	21	20			1		mt	T50	L50		VC1			
+imte4	P			1			Intro End Major Title Lvl 4	17	21	20			1		mt	T50	L40		VC1			
+imte5	P			1			Intro End Major Title Lvl 5	17	21	20			1		mt	T60	L30					
+imte6	P			1			Intro End Major Title Lvl 6	17	21	20			1		mt	T70	S20					
+imte7	P			1			Intro End Major Title Lvl 7	17	21	20			1		mt	T70	S10					
+imte8	P			1			Intro End Major Title Lvl 8	17	21	20			1		mt	T70	S08					
+imte9	P			1			Intro End Major Title Lvl 9	17	21	20			1	"LO: section ""text"" start."	rem				SPN			
+io	P			1			Intro Outline	16	19	19			1		im			H1				
+io0	P			1			Intro Outline Lvl 0						1		im			H0				
+io1	P			1			Intro Outline Lvl 1	16	19	19			1		im			H1				
+io2	P			1			Intro Outline Lvl 2	16	19	19			1		im			H2				
+io3	P			1			Intro Outline Lvl 3	16	19	19			1		im			H3				
+io4	P			1			Intro Outline Lvl 4	16	19	19			1		im			H4				
+io5	P			1			Intro Outline Lvl 5	16	19	19			1		im			H5				
+io6	P			1			Intro Outline Lvl 6	16	19	19			1		im			H6				
+io7	P			1			Intro Outline Lvl 7	16	19	19			1		im			H7				
+io8	P			1			Intro Outline Lvl 8	16	19	19			1		im			H8				
+io9	P			1			Intro Outline Lvl 9	16	19	19			1		im			H9				
+iot	P			1			Intro Outline Title	16	19	19			1		im	S70		H1				
+ip	P			1			Intro Paragraph	11	14	14			1		im			P0				
+ip0	P			1			Intro Paragraph Lvl 0 [p.sfm]	11	14	14			1		im			P0				
+ip1	P			2			Intro Paragraph Lvl 1 [p.sfm]	11	14	14			1		im			P1				
+ip2	P			3			Intro Paragraph Lvl 2 [p.sfm]	11	14	14			1		im			P2				
+ip3	P			4			Intro Paragraph Lvl 3 [p.sfm]	11	14	14			1		im			P3				
+ip4	P			5			Intro Paragraph Lvl 4 [p.sfm]	11	14	14			1		im			P4				
+ip5	P			6			Intro Paragraph Lvl 5 [p.sfm]	11	14	14			1		im			P5				
+ip6	P			7			Intro Paragraph Lvl 6 [p.sfm]	11	14	14			1		im			P6				
+ip7	P			8			Intro Paragraph Lvl 7 [p.sfm]	11	14	14			1		im			P7				
+ip8	P			9			Intro Paragraph Lvl 8 [p.sfm]	11	14	14			1		im			P8				
+ip9	P			10			Intro Paragraph Lvl 9 [p.sfm]	11	14	14			1		im			P9				
+ipi	P			1			Intro Indented Paragraph	11	14	14			1		im			P2				
+ipq	P			1			Intro Indented Quote Paragraph	13	16	16			1		im			P2				
+ipr	P			1			Intro Right align Paragraph	13	16	16			1		im			R0				
+iq0	P			1			Intro Poetry Lvl 1						1		iq			Q0				
+iq1	P			1			Intro Poetry Lvl 2						1		iq			Q1				
+iq2	P			1			Intro Poetry Lvl 3						1		iq			Q2				
+iq3	P			1			Intro Poetry Lvl 4						1		iq			Q3				
+iq4	P			1			Intro Poetry Lvl 5						1		iq			Q4				
+iq5	P			1			Intro Poetry Lvl 6						1		iq			Q5				
+iq6	P			1			Intro Poetry Lvl 7						1		iq			Q6				
+iq7	P			1			Intro Poetry Lvl 8						1		iq			Q7				
+iq8	P			1			Intro Poetry Lvl 9						1		iq			Q8				
+iq9	P			1			Intro Poetry Lvl 10						1		iq			Q9				
+is	P			1			Intro Section Title	10	13	13			1		im	S90	L40	CB	VC1	KPN		
+is0	P			1			Intro Section Title Lvl 0						1		im	S91	L40	CB	VC1	KPN		
+is1	P			1			Intro Section Title Lvl 1	10	13	13			1		im	S70	L30	CB	VC1	KPN		
+is2	P			1			Intro Section Title Lvl 2	10	13	13			1		im	S71	L30	CB	VC1	KPN		
+is3	P			1			Intro Section Title Lvl 3	10	13	13			1		im	S90	S20	CB	VC1	KPN		
+is4	P			1			Intro Section Title Lvl 4	10	13	13			1		im	S91	S20	CB	VC1	KPN		
+is5	P			1			Intro Section Title Lvl 5	10	13	13			1		im	S90	S10	CB		KPN		
+is6	P			1			Intro Section Title Lvl 6	10	13	13			1		im	S91	S10	CB		KPN		
+is7	P			1			Intro Section Title Lvl 7	10	13	13			1		im	S90	S08	CB		KPN		
+is8	P			1			Intro Section Title Lvl 8	10	13	13			1		im	S91	S08	CB		KPN		
+is9	P			1			Intro Section Title Lvl 9	10	13	13			1		im	S91	S08	CB		SC		
+k	P			1			Keyword [CB]						1		im			H0				
+k0	P			1			Keyword Paragraph Lvl 0 [CB]						1		im			H0				
+k1	P			1			Keyword Paragraph Lvl 1 [CB]				S		1		im			H1				
+k2	P			1			Keyword Paragraph Lvl 2 [CB]				S		1		im			H2				
+k3	P			1			Keyword Paragraph Lvl 3 [CB]						1		im			H3				
+k4	P			1			Keyword Paragraph Lvl 4 [CB]						1		im			H4				
+k5	P			1			Keyword Paragraph Lvl 5 [CB]						1		im			H5				
+k6	P			1			Keyword Paragraph Lvl 6 [CB]						1		im			H6				
+k7	P			1			Keyword Paragraph Lvl 7 [CB]						1		im			H7				
+k8	P			1			Keyword Paragraph Lvl 8 [CB]						1		im			H8				
+k9	P			1			Keyword Paragraph Lvl 9 [CB]						1		im			H9				
+lf	P			1			List footer					N	1		m			P0				
+lh	P			1			List Header					N	1		m							
+li	P			1			List item	32	35	35	S		1		m	B70	L10	CB				
+li0	P			1			List Level 0						1		m			H0				
+li1	P			1			List Level 1	32	35	35	S		1		m			H1				
+li2	P			1			List Level 2	32	35	35	S		1		m			H2				
+li3	P			1			List Level 3	32	35	35	S		1		m			H3				
+li4	P			1			List Level 4	32	35	35	S		1		m			H4				
+li5	P			1			List Level 5	32	35	35			1		m			H5				
+li6	P			1			List Level 6	32	35	35			1		m			H6				
+li7	P			1			List Level 7	32	35	35			1		m			H7				
+li8	P			1			List Level 8	32	35	35			1		m			H8				
+li9	P			1			List Level 9	32	35	35			1		m			H9				
+lim	P			1			Embedded List					N	1		m	B70	L10	C				
+lim0	P			1			Embedded List Lvl 0					N	1		m			H0				
+lim1	P			1			Embedded List Lvl 1					N	1		m			H1				
+lim2	P			1			Embedded List Lvl 2					N	1		m			H2				
+lim3	P			1			Embedded List Lvl 3					N	1		m			H3				
+lim4	P			1			Embedded List Lvl 4					N	1		m			H4				
+lim5	P			1			Embedded List Lvl 5					N	1		m			H5				
+lim6	P			1			Embedded List Lvl 6					N	1		m			H6				
+lim7	P			1			Embedded List Lvl 7					N	1		m			H7				
+lim8	P			1			Embedded List Lvl 8					N	1		m			H8				
+lim9	P			1			Embedded List Lvl 9					N	1		m			H9				
+lit	P			1			Liturgical Note	50	53	53	S		1		m	B41		R0				
+mi	P			1			Indented flush left Paragraph	30	33	33	S		1		m			M2				
+mr	P			1			Scripture Reference Section Head	19	22	22	S		1		mt	T71	L10					
+ms	P			1			Major Section Title	19	22	22	S		1		mt	S50	L40		VC1			
+ms0	P			1			Major Section Title Lvl 0						1		mt	S51	L40		VC1			
+ms1	P			1			Major Section Title Lvl 1	19	22	22	S		1		mt	S50	L30		VC1			
+ms2	P			1			Major Section Title Lvl 2	19	22	22	S		1		mt	S51	L30		VC1			
+ms3	P			1			Major Section Title Lvl 3	19	22	22	S		1		mt	S70	S20		VC1			
+ms4	P			1			Major Section Title Lvl 4	19	22	22			1		mt	S71	S20		VC1			
+ms5	P			1			Major Section Title Lvl 5	19	22	22			1		mt	S70	S10					
+ms6	P			1			Major Section Title Lvl 6	19	22	22			1		mt	S71	S10					
+ms7	P			1			Major Section Title Lvl 7	19	22	22			1		mt	S70	S08					
+ms8	P			1			Major Section Title Lvl 8	19	22	22			1		mt	S71	S08					
+ms9	P			1			Major Section Title Lvl 9	19	22	22			1		mt	S70	S08		SC3			
+mt0	P			1			Major Title Lvl 0						1		mt	T50	L80		VC1			
+mt1	P			1			Major Title Lvl 1	18	21	21	S		1		mt	T50	L70		VC1			
+mt2	P			1			Major Title Lvl 2	18	21	21	S		1		mt	T50	L60		VC1			
+mt3	P			1			Major Title Lvl 3	18	21	21	S		1		mt	T50	L50		VC1			
+mt4	P			1			Major Title Lvl 4	18	21	21	S		1		mt	T70	L40		VC1			
+mt5	P			1			Major Title Lvl 5	18	21	21			1		mt	T60	L30					
+mt6	P			1			Major Title Lvl 6	18	21	21			1		mt	T70	L20					
+mt7	P			1			Major Title Lvl 7	18	21	21			1		mt	T70	L10					
+mt8	P			1			Major Title Lvl 8	18	21	21			1		mt	T70	L08					
+mt9	P			1			Major Title Lvl 9	18	21	21			1		mt	T71	L08					
+mte	P			1			End Title	18	21	21	S		1		mt	T50	L90		VC1			
+mte0	P			1			End Title Lvl 0						1		mt	T50	L80		VC1			
+mte1	P			1			End Title Lvl 1	18	21	21	S		1		mt	T50	L70		VC1			
+mte2	P			1			End Title Lvl 2	18	21	21	S		1		mt	T50	L60		VC1			
+mte3	P			1			End Title Lvl 3	18	21	21			1		mt	T50	L50		VC1			
+mte4	P			1			End Title Lvl 4	18	21	21			1		mt	T70	L40		VC1			
+mte5	P			1			End Title Lvl 5	18	21	21			1		mt	T70	L30					
+mte6	P			1			End Title Lvl 6	18	21	21			1		mt	T70	S20					
+mte7	P			1			End Title Lvl 7	18	21	21			1		mt	T70	S10					
+mte8	P			1			End Title Lvl 8	18	21	21			1		mt	T70	S08					
+mte9	P		1	1			End of Book/Section [p.sfm]	18	21	21			1	span to balance cols	rem				SPN			
+nb	P			1			No break-no whitespace Paragraph	31	34	34	S		1		m			M0	KP1			
+p	P			1			Paragraph	27	30	30	S		1		m			P0				
+p0	P			1			Paragraph Indented Lvl 0						1		m			P05				
+p1	P			1			Paragraph Indented Lvl 1				S		1		m			P1				
+p2	P			1			Paragraph Indented Lvl 2				S		1		m			P2				
+p3	P			1			Paragraph Indented Lvl 3						1		m			P3				
+p4	P			1			Paragraph Indented Lvl 4						1		m			P4				
+p5	P			1			Paragraph Indented Lvl 5						1		m			P5				
+p6	P			1			Paragraph Indented Lvl 6						1		m			P6				
+p7	P			1			Paragraph Indented Lvl 7						1		m			P7				
+p8	P			1			Paragraph Indented Lvl 8						1		m			P8				
+p9	P			1			Paragraph Indented Lvl 9						1		m			P9				
+pb	P			1			Page Break	53	56	56	S		1		rem				SPN	PB		
+pc	P			1			Centered Paragraph	32	35	35	S		1		m			C				
+ph	P			1			Hanging Indent Paragraph	33	36	36	D		1		m			H1				
+ph0	P			1			Hanging Indent Par Lvl 0	33	36				1		m			H0				
+ph1	P			1			Hanging Indent Par Lvl 1	33	36	36	D		1		m			H1				
+ph2	P			1			Hanging Indent Par Lvl 2	33	36	36	D		1		m			H2				
+ph3	P			1			Hanging Indent Par Lvl 3	33	36	36	D		1		m			H3				
+ph4	P			1			Hanging Indent Par Lvl 4	33	36	36			1		m			H4				
+ph5	P			1			Hanging Indent Par Lvl 5	33	36	36			1		m			H5				
+ph6	P			1			Hanging Indent Par Lvl 6	33	36	36			1		m			H6				
+ph7	P			1			Hanging Indent Par Lvl 7	33	36	36			1		m			H7				
+ph8	P			1			Hanging Indent Par Lvl 8	33	36	36			1		m			H8				
+ph9	P			1			Hanging Indent Par Lvl 9	33	36	36			1		m			H9				
+pi	P			1			Indented Paragraph	30	33	33	S		1		m			P1				
+pi0	P			1			Indented Paragraph Lvl 0						1		m			P1				
+pi1	P			1			Indented Paragraph Lvl 1	30	33	33	S		1		m			P2				
+pi2	P			1			Indented Paragraph Lvl 2	30	33	33	S		1		m			P3				
+pi3	P			1			Indented Paragraph Lvl 3	30	33	33	S		1		m			P4				
+pi4	P			1			Indented Paragraph Lvl 4	30	33	33			1		m			P5				
+pi5	P			1			Indented Paragraph Lvl 5	30	33	33			1		m			P6				
+pi6	P			1			Indented Paragraph Lvl 6	30	33	33			1		m			P7				
+pi7	P			1			Indented Paragraph Lvl 7	30	33	33			1		m			P8				
+pi8	P			1			Indented Paragraph Lvl 8	30	33	33			1		m			P9				
+pi9	P			1			Indented Paragraph Lvl 9	30	33	33			1		m			P9				
+pm	P			1			Embedded Paragraph	28	31	31	S		1		m			P2				
+pmc	P			1			Embedded Text Closing	29	32	32	S		1		m			M1				
+pmo	P			1			Embedded Text Opening	28	31	31	S		1		m			M1				
+pmr	P			1			Embedded Text Right Align Par	29	32	32	S		1		m			R1				
+po	P			1			Opening Paragraph-letter					N	1		m				VC1			
+pr	P			1			Right Aligned Paragraph	32	35	35	D		1		m			R0				
+ps	P			1			Paragraph No Break				O		1		m			M	KP1			
+psi	P			1			Paragraph Indented No Break				O		1		m			P1	KP1			
+q0	P			1			Poetry Level 0						1		q			Q0				
+q1	P			1			Poetry Level 1	34	37	37	S		1		q			Q1				
+q2	P			1			Poetry Level 2	34	37	37	S		1		q			Q2				
+q3	P			1			Poetry Level 3	34	37	37	S		1		q			Q3				
+q4	P			1			Poetry Level 4	34	37	37	S		1		q			Q4				
+q5	P			1			Poetry Level 5	34	37	37			1		q			Q5				
+q6	P			1			Poetry Level 6	34	37	37			1		q			Q6				
+q7	P			1			Poetry Level 7	34	37	37			1		q			Q7				
+q8	P			1			Poetry Level 8	34	37	37			1		q			Q8				
+q9	P			1			Poetry Level 9	34	37	37			1		q			Q9				
+qa	P			1			Acrostic Heading	36	39	39	S		1		mt	T50	S20		VC1			
+qc	P			1			Poetry Centered	35	38	38	S		1		q			C				
+qd	P			1			Poetry directive-Habakkuk					N	1		m	B61	L08	CB				
+qm	P			1			Embedded Poetry	37	40	40	S		1		q	B41		C				
+qm0	P			1			Embedded Poetry Lvl 0						1		q	B41		Q0				
+qm1	P			1			Embedded Poetry Lvl 1	37	40	40	S		1		q	B41		Q1				
+qm2	P			1			Embedded Poetry Lvl 2	37	40	40	S		1		q	B41		Q2				
+qm3	P			1			Embedded Poetry Lvl 3	37	40	40	S		1		q	B41		Q3				
+qm4	P			1			Embedded Poetry Lvl 4	37	40	40			1		q	B41		Q4				
+qm5	P			1			Embedded Poetry Lvl 5	37	40	40			1		q	B41		Q5				
+qm6	P			1			Embedded Poetry Lvl 6	37	40	40			1		q	B41		Q6				
+qm7	P			1			Embedded Poetry Lvl 7	37	40	40			1		q	B41		Q7				
+qm8	P			1			Embedded Poetry Lvl 8	37	40	40			1		q	B41		Q8				
+qm9	P			1			Embedded Poetry Lvl 9	37	40	40			1		q	B41		Q9				
+qr	P			1			Poetry Right Aligned	34	35	37	S		1		q	B41		R1				
+r	P			1			Scripture Reference Section Break	21	24	24	S		1		m	T71	L08	CB	VS1	KPN		
+s	P			1			Section Title	20	23	23	S		1		m	T70	L30	CB	VC1	KPN		
+s0	P			1			Section Heading Lvl 0						1		m	T71	L30	CB	VC1	KPN		
+s1	P			1			Section Heading Lvl 1	20	23	23	S		1		m	T30	S20	CB	VC1	KPN		
+s2	P			1			Section Heading Lvl 2	20	23	23	S		1		m	T31	S20	CB	VC1	KPN		
+s3	P			1			Section Heading Lvl 3	20	23	23	S		1		m	T70	S10	CB		KPN		
+s4	P			1			Section Heading Lvl 4	20	23	23	S		1		m	T71	S10	CB		KPN		
+s5	P			1			Section Heading Lvl 5	20	23	23			1		m	T70	S08	CB		KPN		
+s6	P			1			Section Heading Lvl 6	20	23	23			1		m	T71	S08	CB		KPN		
+s7	P			1			Section Heading Lvl 7	20	23	23			1		m	T70	S08	CB		SC		
+s8	P			1			Section Heading Lvl 8	20	23	23			1		m	B70	S08	CB		KPN		
+s9	P			1			Section Heading Lvl 9	20	23	23			1		m	B71	S08	CB		KPN		
+sd	P			1			Semantic Division					N	1		rem		R00					
+sd0	P			1			Semantic Division Lvl 0					N	1		rem		R05					
+sd1	P			1			Semantic Division Lvl 1					N	1		rem		B10					
+sd2	P			1			Semantic Division Lvl 2					N	1		rem		B20					
+sd3	P			1			Semantic Division Lvl 3					N	1		rem		B30					
+sd4	P			1			Semantic Division Lvl 4					N	1		rem		B40					
+sd5	P			1			Semantic Division Lvl 5					N	1		rem		B50					
+sd6	P			1			Semantic Division Lvl 6					N	1		rem		B60					
+sd7	P			1			Semantic Division Lvl 7					N	1		rem		B70					
+sd8	P			1			Semantic Division Lvl 8					N	1		rem		B80					
+sd9	P			1			Semantic Division Lvl 9					N	1		rem		B90					
+sp	P			1			Speaker Identification	22	25	25	S		1		m	B41	L10	M0				
+sr	P			1			Section Verse Range	21	24	24	S		1		m	T71	L08	CB	VS1	KPN		
+ef ... ef*	F				1		Extended Footnote	74	81	83			1	Convert to Footnote	f	C41	F10	M				
+ex ... ex*	F				1		Cross Reference-extended	76	83	85			0.5	Convert to Footnote	f							
+fdc ... fdc*	F				1		Footnote-Deuterocanon	42	45	46			1	Convert to footnote (exclude if not DC)	f							
+fe ... fe*	F				1		Endnote	41	44	44			0.5	Convert to Footnote	f	C47						
+fp ...  fp*	F				1		Footnote paragraph	42	45	45			1		f	C40		P1				
+fs ...  fs*	F				1		Footnote Summary	76	D				1		f	C70		CB				
+x ... x*	F				1		Cross Reference	45	48	48			0.5	Convert to footnote	f							
+xdc ... xdc*	F				1		Cross Reference to Dueterocanon	46	49	49			0.5	Convert to footnote	f							
+xnt ... xnt*	F				1		Cross Reference to NT	46	49	49			0.5	Convert to footnote	f							
+xot ... xot*	F				1		Cross Reference to OT	46	49	49			0.5	Convert to footnote	f							
+- [ ... ]	C					1	Invisible Footnote marker	41	44	44			1				R00		Clear			
++ [ ... ]	C					1	Footnote marker	41	44	44			1			S71			SUP			
+add ... add*	C					1	Added words	49	52	52			1			B41						
+addpn ... addpn*	C					1	Added words	49	52	52			1			B41						
+bd ... bd*	C					1	Bold	53	56	56			1			B70						
+bdit ... bdit*	C					1	Bold Italics	53	56	56			1			B71						
+bk ... bk*	C					1	Book Title	49	52	52			1			B41						
+ca ... ca*	C					1	Alternate Chapter Number	23	26	26			1			S70	L10					
+dc ... dc*	C					1	Text Quotation of Deuterocanon	49	52	52			1			B41						
+em ... em*	C					1	Emphasis	53	56	56			1			B71						
+fk ... fk*	C					1	Footnote Keyword	42	45	45			1			C76						
+fl ... fl*	C					1	Footnote Label	42	45	45			1			C77						
+fm ... fm*	C					1	Fake Footnote Marker in text	43	46	46			1			C77			SUP			
+fq ... fq*	C					1	Footnote Quotation 	42	45	45			1			C47						
+fqa ... fqa*	C					1	Footnote Alternate Quote 	42	45	45			1			C47						
+fr ... fr*	C					1	Footnote Backreference	42	45	45			1			C77						
+ft ... ft*	C					1	Footnote Text 	42	45	45			1			C46						
+fv ... fv*	C					1	Footnote Verse Marker	42	45	48			1			C76			SUP			
+fw ... fw*	C					1	Footnote Witness Label	42	45	48			1			C71						
+ior ... ior*	C					1	Intro Outline Reference	16	19	19			1			S41						
+iqt ... iqt*	C					1	Intro Quoted Text	16	19	19			1			S41						
+it ... it*	C					1	Italics	53	56	56			1			B41						
+k ... k*	C					1	Keyword Key Term			52			1	signal in glossary		B70						
+lik ... lik*	C					1	List Key Term					N	1									
+litl ... litl*	C					1	List Total					N	1	sum								
+liv ... liv*	C					1	List Value					N	1									
+liv0 ... liv0*	C					1	List Value 0					N	1									
+liv1 ... liv1*	C					1	List Item Number 1					N	1									
+liv2 ... liv2*	C					1	List Item Number 2					N	1									
+liv3 ... liv3*	C					1	List Item Number 3					N	1									
+liv4 ... lIv4*	C					1	List Item Number 4					N	1									
+liv5 ... lIv5*	C					1	List Item Number 5					N	1									
+liv6 ... lIv6*	C					1	List Item Number 6					N	1									
+lIv7 ... lIv7*	C					1	List Item Number 7					N	1									
+lIv8 ... lIv8*	C					1	List Item Number 8					N	1									
+liv9 ... lIv9*	C					1	List Item Number 9					N	1									
+nd ... nd*	C					1	Name of Diety	50	53	53			1						SC			
+ndx ... ndx*	C					1	Indexed Word 	55	58	58			1						UND			
+no ... no*	C					1	Normal Text	53	56	56			1			B40						
+ord ... ord*	C					1	Ordinal	50	53	56			1						SUP			
+pn ... pn*	C					1	Proper Name of Person	50	53	53			1									
+png ... png*	C					1	Proper Name of Geography	50	53	53		N	1									
+pro ... pro*	C					1	Pronunciation	55	58	58			1									
+qac ... qac*	C					1	Inline Acrostic	36	39	39			1			B60			T75			
+qt ... qt*	C					1	Quoted Text	51	54	54			1			B41						
+rb ... rb*	C					1	Ruby Base					N	1									
+rq ... rq*	C					1	Inline Reference	21	24	24			1	 (in body text)		B41						
+rt ... rt*	C					1	Ruby Annotation					N	1						SUP			
+sc ... sc*	C					1	Small Caps	53	56	56			1						SC			
+sig ... sig*	C					1	Signature	51	54	54			1			B41						
+sls ... sls*	C					1	Text is Alt Language	52	55	55			1									
+sup ... sup*	C					1	Superscript	52	55	55			1						SUP			
+tl ... tl*	C					1	Transliterated or Foreign word	52	55	55			1									
+va ... va*	C					1	Alternate Verse Number	25	28	28			1	?? (REPLACE OR DUAL?)		C77			SUP	FPL		
+w ... w*	C					1	Wordlist Marker	55	58	58			1									
+wa ... wa*	C					1	Aramaic Wordlist Marker					N	1									
+wg ... wg*	C					1	Greek Wordlist Marker	55	58	58			1									
+wh ... wh*	C					1	Hebrew Word List Marker	55	58	58			1									
+wj ... wj*	C					1	Words of Jesus	52	55	55			1						WOC			
+wr ... wr*	C					1	Auxiliary Wordlist entry				O		1									
+xk ... xk*	C					1	Cross Reference Keyword	46	49	49			1			C76						
+xo ... xo*	C					1	Cross Reference Origin	46	49	49			1			C77						
+xop ... xop*	C					1	Published Cross Reference Origin	46	49	49			1			C77						
+xq ... xq*	C					1	Cross Reference Quote	46	49	49			1			C47						
+xt ... xt*	C					1	Cross Reference Target	46	49	49			1			C46						
+xta ... xta*	C					1	Cross Reference Additional Text	46	49	49		N	1			C46						
+tc0	A			1			Table Hand Left						1			V50	L10	M0				
+tc1	A			1			Table Hand Cursive Left						1			V51	L10	M0				
+tc2	A			1			Table Text Light Left						1			B30	L10	M0				
+tc3	A			1			Table Text Light Italic Left						1			B31	L10	M0				
+tc4	A			1			Table Text Regular Left						1			B40	L10	M0				
+tc5	A			1			Table Text Regular Italic Left						1			B41	L10	M0				
+tc6	A			1			Table Text Bold Left						1			B70	L10	M0				
+tc7	A			1			Table Text Bold Italic Left						1			B71	L10	M0				
+tc8	A			1			Table Text Heavy Left						1			B90	L10	M0				
+tc9	A			1			Table Text Heavy Italic Left						1			B91	L10	M0				
+tcc0	A			1			Table Hand Center						1			V50	L10	C				
+tcc1	A			1			Table Hand Cursive Center				S		1			V51	L10	C				
+tcc2	A			1			Table Text Light Center				S		1			B30	L10	C				
+tcc3	A			1			Table Text Light Italic Center				S		1			B31	L10	C				
+tcc4	A			1			Table Text Regular Center				S		1			B40	L10	C				
+tcc5	A			1			Table Text Regular Italic Center				S		1			B41	L10	C				
+tcc6	A			1			Table Text Bold Center				S		1			B70	L10	C				
+tcc7	A			1			Table Text Bold Italic Center				S		1			B71	L10	C				
+tcc8	A			1			Table Text Heavy Center				S		1			B90	L10	C				
+tcc9	A			1			Table Text Heavy Italic Center				S		1			B91	L10	C				
+tcr0	A			1			Table Hand Right						1			V50	L10	R0				
+tcr1	A			1			Table Hand Cursive Right						1			V51	L10	R0				
+tcr2	A			1			Table Text Light Right						1			B30	L10	R0				
+tcr3	A			1			Table Text Light Italic Right						1			B31	L10	R0				
+tcr4	A			1			Table Text Regular Right						1			B40	L10	R0				
+tcr5	A			1			Table Text Regular Italic Right						1			B41	L10	R0				
+tcr6	A			1			Table Text Bold Right						1			B70	L10	R0				
+tcr7	A			1			Table Text Bold Italic Right						1			B71	L10	R0				
+tcr8	A			1			Table Text Heavy Right						1			B90	L10	R0				
+tcr9	A			1			Table Text Heavy Italic Right						1			B91	L10	R0				
+th0	A			1			Table Hand Bold Left						1			V70	L10	M				
+th1	A			1			Table Hand Cursive Bold Left						1			V71	L10	M				
+th2	A			1			Table Head Light Left						1			T30	L10	M				
+th3	A			1			Table Head Light Italic Left						1			T31	L10	M				
+th4	A			1			Table Head Regular Left						1			T40	L10	M				
+th5	A			1			Table Head Regular Italic Left						1			T41	L10	M				
+th6	A			1			Table Head Bold Left						1			T70	L10	M				
+th7	A			1			Table Head Bold Italic Left						1			T71	L10	M				
+th8	A			1			Table Head Heavy Left						1			T90	L10	M				
+th9	A			1			Table Head Heavy Italic Left						1			T91	L10	M				
+thc0	A			1			Table Hand Cursive Center						1			V70	L10	C				
+thc1	A			1			Table Hand Cursive Bold Center						1			V71	L10	C				
+thc2	A			1			Table Head Light Center						1			T30	L10	C				
+thc3	A			1			Table Head Light Italic Center						1			T31	L10	C				
+thc4	A			1			Table Head Regular Center						1			T40	L10	C				
+thc5	A			1			Table Head Regular Italic Center						1			T41	L10	C				
+thc6	A			1			Table Head Bold Center						1			T70	L10	C				
+thc7	A			1			Table Head Bold Italic Center						1			T71	L10	C				
+thc8	A			1			Table Head Heavy Center						1			T90	L10	C				
+thc9	A			1			Table Head Heavy Italic Center						1			T91	L10	C				
+thr0	A			1			Table Hand Cursive Right						1			V70	L10	R0				
+thr1	A			1			Table Hand Cursive Bold Right						1			V71	L10	R0				
+thr2	A			1			Table Head Light Right						1			T30	L10	R0				
+thr3	A			1			Table Head Light Italic Right						1			T31	L10	R0				
+thr4	A			1			Table Head Regular Right						1			T40	L10	R0				
+thr5	A			1			Table Head Regular Italic Right						1			T41	L10	R0				
+thr6	A			1			Table Head Bold Right						1			T70	L10	R0				
+thr7	A			1			Table Head Bold Italic Right						1			T71	L10	R0				
+thr8	A			1			Table Head Heavy Right						1			T90	L10	R0				
+thr9	A			1			Table Head Heavy Italic Right						1			T91	L10	R0				
+tr	A			1			New Table-row	39	42	42	S		0.8		m			C				
+tr0	A			1			Table Row Type 0 [p.sfm]						0.8		m			M0				
+tr1	A			1			Table Row Type 1 [p.sfm]	39	42	42	S		0.8		m			M1				
+tr2	A			1			Table Row Type 2 [p.sfm]	39	42	42	S		0.8		m			M2				
+tr3	A			1			Table Row Type 3 [p.sfm]	39	42	42	S		0.8		m			M3				
+tr4	A			1			Table Row Type 4 [p.sfm]	39	42	42	S		0.8		m			M4				
+tr5	A			1			Table Row Type 5 [p.sfm]	39	42	42	S		0.8		m			M5				
+tr6	A			1			Table Row Type 6 [p.sfm]	39	42	42	S		0.8		m			M6				
+tr7	A			1			Table Row Type 7 [p.sfm]	39	42	42	S		0.8		m			M7				
+tr8	A			1			Table Row Type 8 [p.sfm]	39	42	42	S		0.8		m			M8				
+tr9	A			1			Table Row Type 9 [p.sfm]	39	42	42	S		0.8		m			M9				
+Footer	 Y			1			Footer Text [LO]							LO Autostyle	mt	T70	L08		AC	T3		
+Header	 Y			1			Header Text [LO]							LO Autostyle	mt	T70	L08		AC	T3		
+ibd … ibd*	 X					1	Sans Bold [p.sfm]						1	PSFM		S70						
+iem … iem*	 X					1	Sans Bold Italic [p.sfm]						1	PSFM		S71						
+ino … ino*	 X					1	Sans Text [p.sfm]						1	PSFM		S40						
+isb … isb*	 X					1	Sans Semibold [p.sfm]						1	PSFM		S60						
+iti … iti*	 X					1	Sans Italic [p.sfm]						1	PSFM		S41						
+n ... n*	 X					1	Handwritten Note [p.sfm]						1	PSFM		V50						
+nh ... nh*	 X					1	Handwritten Note Heavy [p.sfm]						1	PSFM		V70						
+nl ... nl*	 X					1	Handwritten Note Light [p.sfm]						1	PSFM		V30						
+qt-e ...*	 U	1	1			1	quotation speaker info					N	0.25				R00		Clear			
+qt-s ...*	 U	1	1			1	quotation speaker info					N	0.25				R00		Clear			
+qt0-e ...*	 U	1	1			1	quotation speaker info					N	0.25				R00		Clear			
+qt0-s ...*	 U	1	1			1	quotation speaker info					N	0.25				R00		Clear			
+qt1-e ...*	 U	1	1			1	quotation speaker info					N	0.25				R00		Clear			
+qt1-s ...*	 U	1	1			1	quotation speaker info					N	0.25				R00		Clear			
+qt2-e ...*	 U	1	1			1	quotation speaker info					N	0.25				R00		Clear			
+qt2-s ...*	 U	1	1			1	quotation speaker info					N	0.25				R00		Clear			
+qt3-e ...*	 U	1	1			1	quotation speaker info					N	0.25				R00		Clear			
+qt3-s ...*	 U	1	1			1	quotation speaker info					N	0.25				R00		Clear			
+qt4-e ...*	 U	1	1			1	quotation speaker info					N	0.25				R00		Clear			
+qt4-s ...*	 U	1	1			1	quotation speaker info					N	0.25				R00		Clear			
+qt5-e ...*	 U	1	1			1	quotation speaker info					N	0.25				R00		Clear			
+qt5-s ...*	 U	1	1			1	quotation speaker info					N	0.25				R00		Clear			
+qt6-e ...*	 U	1	1			1	quotation speaker info					N	0.25				R00		Clear			
+qt6-s ...*	 U	1	1			1	quotation speaker info					N	0.25				R00		Clear			
+qt7-e ...*	 U	1	1			1	quotation speaker info					N	0.25				R00		Clear			
+qt7-s ...*	 U	1	1			1	quotation speaker info					N	0.25				R00		Clear			
+qt8-e ...*	 U	1	1			1	quotation speaker info					N	0.25				R00		Clear			
+qt8-s ...*	 U	1	1			1	quotation speaker info					N	0.25				R00		Clear			
+qt9-e ...*	 U	1	1			1	quotation speaker info					N	0.25				R00		Clear			
+qt9-s ...*	 U	1	1			1	quotation speaker info					N	0.25	rem			R00		Clear			
+restore (&)	 S	1	1				Restore Information 						0.5		rem							
+xtSee	 S			1			See other listing paragraph [CB]						0.5		rem							
+xtSeeAlso	 S			1			See other listing paragraph [CB]						0.5		rem							
+zpa-b	 S	1	1				Book  [PA]				S		0.5		rem							
+zpa-c	 S	1	1				Chapter [PA]				S		0.5		rem							
+zpa-d	 S	1	1				Description [PA]				S		0.5		rem							
+zpa-v	 S	1	1				Verse [PA]				S		0.5		rem							
+conc (&)	 A		1	1			OBSOLETE Concordance division	9	9	9	S		0		rem							
+cov (&)	 A		1	1			OBSOLETE Cover division				S		0		rem							
+esb (&)	 A		1	1			Study Bible Sidebar Start		84	86			0		rem							
+esbe (&)	 A		1	1			Study Bible Sidebar End		84	86			0		rem							
+glo (&)	 A		1	1			OBSOLETE Glossary division				S		0		rem							
+idx (&)	 A		1	1			OBSOLETE Index division				O		0		rem							
+intro (&)	 A		1	1			OBSOLETE Introduction division				O		0		rem							
+maps (&)	 A		1	1			OBSOLETE Maps division				O		0		rem							
+pref (&)	 A		1	1			OBSOLETE Preface division				O		0		rem							
+pub (&)	 A		1	1			OBSOLETE Publication division				O		0		rem							
+pubinfo (&)	 A		1	1			OBSOLETE Publication Information div				O		0		rem							
+spine (&)	 A		1	1			OBSOLETE Spine 						0		rem							
+zz																						
+zz																						
