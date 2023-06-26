@@ -1,4 +1,4 @@
-# AV Evangard Publishing Tools
+# AV Evangard Publishing Tools for LibreOffice 7
 _Build a better Libre Office Writer document._
 
 This is zero rev code, or idea collation only. 
@@ -19,7 +19,7 @@ __2. Choosing Fonts in LibreOffice Writer.__
 
 __3. Build stylesheet in LibreOffice Calc.__
 
-__Note:__ supported version of LibreOffice Calc is 6.4.7.2 -- version 7 doesn't work. 
+__Note:__ Evangard-LO7 supports LibreOffice Calc is 7.4.0.2 LibreOffice Community or greater, as distributed in Salix15. It hopefully will settle with the version that ships with Ubuntu 24.04 unless it regresses from 7.4.0.2 (ubuntu 22.04 is using 7.3 ... which caused the search for another system.) Also, separately from LO and Evangard, I want to address color profiles in a way that embedding ProPhoto or AdobeRGB is possible instead of or as well as sRGB. Either of those profiles provides big improvement on the richness of color in print, with the Kodak ProPhoto being able to produce pretty much any color the eye can see (97-98%.) Most of this is outside of LibreOffice, and might require a switch to SuSE to be able to have a complete workflow so that color-on-screen matches color-in-print. As it is, I recommend ONLY greyscale with Evangard and LO, and with that, not expecting the screen to match print... always test any color or hue in print before mass production. 
 
   _a. Shaping_
   
